@@ -1,8 +1,9 @@
 import React from 'react'
+import { HeroHome } from '../components/HeroHome/Index'
 
 export const Home = () => {
   return (
-    <h1>Home</h1>
+    <HeroHome />
   )
 }
 

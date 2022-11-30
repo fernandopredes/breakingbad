@@ -1,8 +1,8 @@
 import { BrowserRouter } from "react-router-dom"
-import Header from "./components/Header/Index"
 import {Router} from "./Router"
-import "./global.css"
+import Header from "./components/Header/Index"
 import Footer from "./components/Footer/Index"
+import "./global.css"
 
 
 
@@ -12,9 +12,9 @@ function App() {
     
       <BrowserRouter>
         <Header />
-        <div className="container">
+        
         <Router />
-        </div>
+        
         <Footer/>
       </BrowserRouter>
     

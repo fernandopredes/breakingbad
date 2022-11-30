@@ -1,7 +1,12 @@
+import { Application } from "../components/Application/Index"
+import { HeroPage } from "../components/HeroPage/Index"
 
 export const BreakingBad = () => {
   return (
-    <h1>BreakingBad</h1>
+    <>
+    <HeroPage nameSerie="breakingbad" titulo="Breaking Bad"/>
+    <Application serie="Breaking+Bad" />
+    </>
   )
 }
 
